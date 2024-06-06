@@ -1,4 +1,8 @@
+IMAGE_INSTALL:remove = "psplash-inverted-config"
+IMAGE_INSTALL:remove = "weston-ini-conf-landscape-inverted"
+
 IMAGE_INSTALL += "\
+	weston-ini-conf-landscape \
 	kuksa-databroker-cli \
 	kuksa-databroker \
 	kuksa-databroker-agl \
